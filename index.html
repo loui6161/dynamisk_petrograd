@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Petrograd</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+
+<body>
+    <!---NAVIGATIONSMENU-->
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="forside"><a href="#">Forside</a></li>
+                <li class="menu"><a class="menu" href="#">Menu</a></li>
+                <li class="kontakt"><a href="#">Kontakt</a></li>
+                <li class="nyheder"><a href="#">Nyheder</a></li>
+                <li class="job"><a href="#">Job</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <div class="container-fluid">
+
+
+        <!---FORRETTER-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Forretter</h1>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <!--FORRET 1-->
+            <div class="col-xs-4 col-sm-4 col-md-4 box1"><img src="imgs/large/baltiskbondesuppe.jpg" alt="bondesuppe" class="img-responsive">
+                <h4>Baltisk Bondesuppe</h4>
+                <h5>79,-</h5>
+                <button type="button" class="btn btn-primary modalknap" data-toggle="modal" data-target="#myModal">
+                    Detaljer
+                </button>
+            </div>
+
+            <!--FORRET 2-->
+            <div class="col-xs-4 col-sm-4 col-md-4 box2"><img src="imgs/large/boef.jpg" alt="bøf_pepper" class="img-responsive">
+                <h4>Bøf Med Stegte Peper</h4>
+                <h5>149,-</h5>
+                <button type="button" class="btn btn-primary modalknap" data-toggle="modal" data-target="#myModal">
+                    Detaljer
+                </button>
+            </div>
+
+            <!--FORRET 3-->
+            <div class="col-xs-4 col-sm-4 col-md-4 box3"><img src="imgs/large/caviarbruschetta.jpg" alt="caviar" class="img-responsive">
+                <h4>Caviar Bruschetta</h4>
+                <h5>49,-</h5>
+                <button type="button" class="btn btn-primary modalknap" data-toggle="modal" data-target="#myModal">
+                    Detaljer
+                </button>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <!--FORRET 4-->
+            <div class="col-xs-4 col-sm-4 col-md-4 box4"><img src="imgs/large/borsjtj.jpg" alt="borsjtj" class="img-responsive">
+                <h4>Borsjtj</h4>
+                <h5>79,-</h5>
+                <button type="button" class="btn btn-primary modalknap" data-toggle="modal" data-target="#myModal">
+                    Detaljer
+                </button>
+            </div>
+
+            <!--FORRET 5-->
+            <div class="col-xs-4 col-sm-4 col-md-4 box5"><img src="imgs/large/guzni.jpg" alt="guzni" class="img-responsive">
+                <h4>Guzni</h4>
+                <h5>69,-</h5>
+                <button type="button" class="btn btn-primary modalknap" data-toggle="modal" data-target="#myModal">
+                    Detaljer
+                </button>
+            </div>
+
+            <!--FORRET 6-->
+            <div class="col-xs-4 col-sm-4 col-md-4 box6"><img src="imgs/large/syltedeloeg.jpg" alt="løg" class="img-responsive">
+                <h4>Syltede Løg</h4>
+                <h5>59,-</h5>
+                <button type="button" class="btn btn-primary modalknap" data-toggle="modal" data-target="#myModal">
+                    Detaljer
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Information om retten</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <p>
+                            <br>Navn:<span class="data_info">DATA_FORNAVN</span>
+                            <br>Pris:<span class="data_pris">DATA_EFTERNAVN</span>
+                            <br>Allergi:<span class="data_allergi">DATA_ALLERGI</span>
+
+
+
+
+
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk vindue</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>
